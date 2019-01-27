@@ -525,8 +525,8 @@ ul, li {
     font-size: 56px;
   }
   #header .logo-name {
-    top: 15px;
-    left: 10px;
+    top: 10px;
+    left: 0px;
     font-size: 25px;
   }
   #header .logo-desc {
