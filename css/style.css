@@ -549,9 +549,9 @@ ul, li {
     height: 40px;
     display: inline-block;
     background-image: url("../img/profile/fujiyama.jpg" );  /* 表示する画像 */
-    
+    /*
     border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
-    
+    /*
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     */
