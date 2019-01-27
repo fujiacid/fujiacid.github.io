@@ -504,6 +504,19 @@ ul, li {
   font-weight: bold;
 }
 
+#footer .warning {
+  text-align: center;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.4);
+  /*background: rgb(17, 17, 17);*/
+  padding: 16px 400px;
+  width:100%;
+  min-width:1000px;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
 #footer .copyright {
   font-size: 10px;
   color: #8c8c8c;
