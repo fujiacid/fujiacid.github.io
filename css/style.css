@@ -563,7 +563,11 @@ ul, li {
     margin: 0 auto 20px;
   }
   #about .two-column-desc {
-   width: 100%;
+    width: 100%;
+    background: rgb(237, 237, 237);
+    border-radius: 8px;
+    padding: 28px 20px 25px;
+    margin-top: -25px;padding: 28px 20px 25px;
  }
 
   #skill .card-wrapper {
