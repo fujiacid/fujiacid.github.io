@@ -202,6 +202,8 @@ ul, li {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  max-width: 5rem;
+  max-height: 5rem;
 }
 
 .two-column-image {
@@ -212,8 +214,8 @@ ul, li {
     
   border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
   -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    background-size: cover;
+  -webkit-border-radius: 50%;
+  background-size: cover;
   background-position: center;  /* 横長画像の左上を基準に表示 */
 }
 
@@ -539,8 +541,18 @@ ul, li {
     flex-wrap: wrap;
   }
   #about .two-column-image {
-    width: 50%;
     margin: 0 auto 20px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-image: url("../img/profile/fujiyama.jpg" );  /* 表示する画像 */
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-size: cover;
+    background-position: center;  /* 横長画像の左上を基準に表示 */
+    max-width: 5rem;
+    max-height: 5rem;
   }
   #about .two-column-desc {
    width: 100%;
