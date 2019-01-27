@@ -545,9 +545,9 @@ ul, li {
   }
   #about .two-column-image {
     /*margin: 0 auto 20px;*/
-    width: 40px;
-    height: 40px;
-    display: inline-block;
+    width: 50px;
+    height: 50px;
+    display: block;
     background-image: url("../img/profile/fujiyama.jpg" );  /* 表示する画像 */
     /*
     border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
