@@ -488,7 +488,7 @@ ul, li {
   }
   #header .logo-name {
     top: 0;
-    left: -30px;
+    left: 0px;
     font-size: 25px;
   }
   #header .logo-desc {
@@ -542,8 +542,8 @@ ul, li {
   }
   #about .two-column-image {
     margin: 0 auto 20px;
-    width: 100px;
-    height: 100px;
+    width: 10px;
+    height: 10px;
     display: inline-block;
     background-image: url("../img/profile/fujiyama.jpg" );  /* 表示する画像 */
     border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
