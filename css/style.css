@@ -635,7 +635,7 @@ ul, li {
     width: 100%;
   }
   #contact .contact-list li {
-    flex-basis: 30%;
+    flex-basis: 10%;
   }
   #contact .contact-list li img {
     width: 30px;
