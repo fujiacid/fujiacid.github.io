@@ -290,9 +290,24 @@ ul, li {
 }
 
 #about .two-column-desc {
-  width: 62%;
+  width: 60%;
+  background: rgb(237, 237, 237);
+  border-radius: 8px;
+  padding: 28px 20px 25px;
+  margin-top: -25px;
 }
 
+#about dt {
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 25px
+}
+#about span {
+  font-size: 1rem;
+  display: block;
+  top: 100px;
+  padding: 0px 0px -100px;
+}
 /*--------------------------------
  SKILL
 ---------------------------------*/
@@ -609,3 +624,4 @@ ul, li {
     padding: 0 10px;
     margin-bottom: 5px;
   }
+}
