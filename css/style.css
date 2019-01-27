@@ -550,8 +550,10 @@ ul, li {
     display: inline-block;
     background-image: url("../img/profile/fujiyama.jpg" );  /* 表示する画像 */
     border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    /*
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
+    */
     background-size: cover;
     background-position: center;  /* 横長画像の左上を基準に表示 */
     max-width: 5rem;
