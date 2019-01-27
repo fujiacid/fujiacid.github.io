@@ -201,7 +201,16 @@ ul, li {
 }
 
 .two-column-image {
-  width: 33%;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  background-image: url("../img/profile/fujiyama.jpg" );  /* 表示する画像 */
+    
+  border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+  -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-size: cover;
+  background-position: center;  /* 横長画像の左上を基準に表示 */
 }
 
 .two-column-image img {
@@ -271,7 +280,7 @@ ul, li {
 ---------------------------------*/
 
 #about .two-column-image {
-  width: 33%;
+    
 }
 
 #about .two-column-desc {
