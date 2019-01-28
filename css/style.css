@@ -282,11 +282,11 @@ ul, li {
 　Latestworks
 ---------------------------------*/
 
-#latestworks .two-column-image {
+#GAME .two-column-image {
   width: 48%;
 }
 
-#latestworks .two-column-desc {
+#GAME .two-column-desc {
   width: 48%;
 }
 
@@ -593,17 +593,17 @@ ul, li {
   .section .section-title {
     font-size: 36px;
   }
-  #latestworks .two-column-wrapper {
+  #GAME .two-column-wrapper {
     width: 100%;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
-  #latestworks .two-column-image {
+  #GAME .two-column-image {
     width: 90%;
     margin: 0 auto 20px;
   }
 
-  #latestworks .two-column-desc {
+  #GAME .two-column-desc {
     width: 100%;
   }
   #works .card {
