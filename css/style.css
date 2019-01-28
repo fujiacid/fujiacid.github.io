@@ -43,6 +43,35 @@ ul, li {
   list-style: none;
 }
 
+.btn {
+  display: table;
+  width: 60%;
+  margin: 20px auto;
+}
+.btn a {
+  display: table-cell;
+  width: 100%;
+  height: 42px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 21px;
+  background: rgb(237, 237, 237);
+  position: relative;
+  color: #333;
+}
+.btn a::after {
+  font-family: fontello;
+  display: inline-block;
+  content: "\03e";
+  position: absolute;
+  top: 0;
+  right: 20px;
+  bottom: 5px;
+  height: 1rem;
+  margin: auto 0;
+}
+
+
 /*--------------------------------
 　全体
 ---------------------------------*/
