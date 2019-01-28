@@ -196,7 +196,7 @@ ul, li {
 
 .section .section-title-block {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .section .section-title {
@@ -205,7 +205,7 @@ ul, li {
   display: inline-block;
   font-size: 56px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   color: #eb6206;
 }
 
@@ -559,7 +559,7 @@ ul, li {
     padding: 30px 15px;
   }
   .section .section-title-block {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
   .section .section-title {
     font-size: 36px;
