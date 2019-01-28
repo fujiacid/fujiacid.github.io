@@ -596,7 +596,7 @@ ul, li {
   }
   #about .two-column-image {
     width: 50%;
-    margin: 0 auto 20px;
+    margin: 0 auto 0px;
   }
   #about .two-column-desc {
     width: 100%;
