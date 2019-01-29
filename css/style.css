@@ -143,6 +143,10 @@ ul, li {
   margin-top: 5px;
   color: #cacaca;
 }
+.mainHead {
+  width: 100%;
+  background: url(../img/wallpaper.jpg) center center / cover no-repeat;
+}
 
 /*--------------------------------
 　グローバルナビ
