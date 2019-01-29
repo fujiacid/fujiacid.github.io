@@ -106,7 +106,7 @@ ul, li {
   -ms-align-items: center;
   align-items: center;
   height: 1000px;
-  /*background-color: #2b2b2b;*/
+  background-color: #2b2b2b;
 }
 
 #header .logo {
@@ -144,8 +144,10 @@ ul, li {
   color: #cacaca;
 }
 .mainHead {
+  /*
   width: 100%;
   background: url(../img/wallpaper.jpg) center center / cover no-repeat;
+  */
 }
 
 /*--------------------------------
